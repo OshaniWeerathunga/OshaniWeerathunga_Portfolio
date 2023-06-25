@@ -5,7 +5,7 @@ import CanvasLoader from '../Loader';
 
 const Computers = ({isMobile}) => {
 
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computer = useGLTF('./iphone/scene.gltf')
 
   return (
     <mesh>
@@ -21,8 +21,8 @@ const Computers = ({isMobile}) => {
       />
       <primitive 
         object={computer.scene} 
-        scale={isMobile ? 0.7 : 0.65}
-        position={isMobile ? [0,-2,-2.2] : [0,-2.8,-1.5]}
+        scale={isMobile ? 0.7 : 2.0}
+        position={isMobile ? [0,-2,-2.2] : [0,-2.0,-1.0]}
         rotation={[-0.01,-0.2,-0.1]}
       />
     </mesh>

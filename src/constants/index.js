@@ -17,6 +17,7 @@ import {
     fintrex,
     ecovision,
     myfintrex,
+    inventory,
     portfolio,
     tripguide,
     threejs,
@@ -154,6 +155,29 @@ import {
       image: myfintrex,
       source_code_link: "https://github.com/",
     },
+
+    {
+      name: "Store Management System",
+      description:
+          "To track the product inventory, slaes and other production process of the Cricket Association in Qatar",
+        tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: inventory,
+      source_code_link: "https://github.com/",
+    },
+
     {
       name: "Portfolio",
       description:

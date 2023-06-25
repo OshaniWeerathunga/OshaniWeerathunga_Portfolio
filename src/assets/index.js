@@ -25,6 +25,7 @@ import fintrex from "./company/fintrex.png";
 import ecovision from "./company/ecovision.png";
 
 import myfintrex from "./myfintrexProject.png";
+import inventory from "./inventorySystem.png"
 import portfolio from "./portfolio.png";
 import tripguide from "./tripguide.png";
 
@@ -53,6 +54,7 @@ export {
   fintrex,
   ecovision,
   myfintrex,
+  inventory,
   portfolio,
   tripguide,
 };
