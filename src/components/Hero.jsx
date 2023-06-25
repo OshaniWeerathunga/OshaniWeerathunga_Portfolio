@@ -16,8 +16,8 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Oshani</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Android Mobile<br className='sm:block hidden'/>
-            Apps and Web Applications
+            I develop Mobile apps,<br className='sm:block hidden'/>
+            websites and full stack Applications
           </p>
         </div>
 
