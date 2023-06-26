@@ -5,7 +5,7 @@ import CanvasLoader from '../Loader';
 
 const Computers = ({isMobile}) => {
 
-  const computer = useGLTF('./planet/scene.gltf')
+  const computer = useGLTF('./desktop_pc/scene.gltf')
 
   return (
     
@@ -20,7 +20,6 @@ const Computers = ({isMobile}) => {
   );
 };
 
-/*
 const ComputersCanvas = () => {
 
   const [isMobile, setIsMobile] = useState(false);
@@ -45,7 +44,7 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
-*/
+
 
   return(
     <Canvas
